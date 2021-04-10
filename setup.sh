@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repo_dir="$(basename "$0")"
+repo_dir="$(dirname "$0")"
 
 ln -s "${repo_dir}/inputrc" ~/.inputrc
 ln -s "${repo_dir}/tmux.conf" ~/.tmux.conf
