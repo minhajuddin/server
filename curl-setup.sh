@@ -3,7 +3,8 @@
 set -e
 
 echo "> cloning the server repo"
-git clone https://github.com/minhajuddin/server $HOME/
+cd $HOME
+git clone https://github.com/minhajuddin/server
 cd $HOME/server/
 
 bash ./setup.sh
